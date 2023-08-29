@@ -69,10 +69,11 @@ function App() {
     ],
   });
 
-  //what is the syntax to access the data we are looking for
-  //for example: how to access name of student
+  /*what is the syntax to access the data we are looking for
+  for example: how to access name of student
   console.log(studentData.students[0].name);
   console.log(studentData.students);
+  */
 
   return (
     <div className="App">

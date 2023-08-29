@@ -4,7 +4,9 @@ function Student({ student }) {
     <div className="Student">
       <h1>{student.name}</h1>
       <p>{student.bio}</p>
-      <Score scores={student.scores} />
+      {student.scores.map((item) => (
+        <Score score={item} />
+      ))}
     </div>
   );
 }

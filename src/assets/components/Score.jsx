@@ -1,14 +1,10 @@
-function Score({ scores }) {
-  let date = scores.date;
-  let score = scores.score;
+function Score({ score }) {
   return (
     <div className="Score">
-      <b>Scores</b>
-      {scores.map((item) => (
-        <p>
-          score:&nbsp;{item.score}&nbsp; date:&nbsp;{item.date}
-        </p>
-      ))}
+      <b>Score</b>
+      <p>
+        score:&nbsp;{score.score}&nbsp; date:&nbsp;{score.date}
+      </p>
     </div>
   );
 }
